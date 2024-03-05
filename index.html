@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-do List App</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<h1>To-Do List App</h1>
+	</header>
+
+	<intro>
+		<h2>Welcome to our to-do list website! <br>
+			This website is designed to help you stay organized and productive. 
+		</h2>
+		<ul>
+			<h4>Why Us?</h4>
+			<li>Easy to use: Our website is designed to be simple and easy to use, so you can get started right away.</li>
+			<li>Flexible: You can customize your to-do list to fit your needs. You can create multiple lists, set due dates and times, and add notes to your tasks.</li>
+			<li>Secure: Your data is safe and secure with us. We use industry-leading security measures to protect your information.</li>
+			<li>Free: Our website is completely free to use.</li>
+		</ul>
+		<h2> enter your task and click the 'Add Task' button . You can also specify a due date and time for your task. Once you have added your task, it will appear on your list. You can then mark your tasks as completed as you go.</h2>
+		<button  id="getStarted"  >Get Started  &#x2192;</button>
+	</intro>
+		
+
+	<!-- /// After Get STARTED---------------------------- -->
+	<main>
+		<input type="text" id="taskInput" placeholder="Add a task..." >
+		
+		<input type="datetime-local" id="deadline" placeholder="add a deadline...">
+		
+		<button id="addTaskBtn" type="submit" value="Submit">Add Task</button>
+		<ul id="taskList">
+		</ul>
+		<button  id="deleteAllBtn" class="btn btn-danger">Clear All</button>
+		<script src="script.js"></script>
+	
+	</main>
+
+	<!-- copyright section start -->
+	<div class="copyright_section">
+		<div class="container">
+		   <p class="copyright_text" style="text-align: center;">Implemented by The Rejects 💀.</p>
+		</div>
+	 </div>
+	 <!-- copyright section end -->
+
+	 
+</body>
+<footer>page by AbdhulBasith.<a href="index.html">HOME</a></footer>
+
+</html>
